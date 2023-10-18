@@ -44,7 +44,7 @@ function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
     keycloak.init({
       config: {
-        url: 'http://192.168.116.116:9595',
+        url: 'http://localhost:9595',
         realm: 'popularsafi',
         clientId: 'appsafimovil'
       },
