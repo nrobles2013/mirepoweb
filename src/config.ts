@@ -1,5 +1,5 @@
 export const config = {
-  apiUrl: 'http://localhost:8045/appsafimovil',
+  apiUrl: 'http://192.168.116.116:8045/appsafimovil',
   apiUrlKeyCloak: 'http://localhost:9595',
   authRoles: {
     sa: ['SA'], // Only Super Admin has access
